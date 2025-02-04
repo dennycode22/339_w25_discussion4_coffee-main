@@ -52,3 +52,24 @@ body{
     margin-bottom: 10px;
     text-align: center;
  }
+
+ .gallery{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: dashed black 2px;
+   width: 90%;
+   column-gap: 20px;
+   row-gap: 20px;
+   margin: 0 auto;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   justify-items: center;
+ }
+ .gallery img {
+   width: 250px;
+ }
+ .coffeeshop {
+   -ms-grid-column-align: 2;
+   -ms-grid-row-align: 2;
+ }
